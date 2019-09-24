@@ -99,7 +99,7 @@ def get_rules(data, support_val=0.6, lift_val=1, confidence_val=0.8):
 
 
 # read data into file and impute missing values
-emp_atr=pd.read_csv("C:/Users/Aditya Ganesh/Desktop/IST 707 - Data Analytics/Week 3/HW1/materials/employee_attrition.csv")
+emp_atr=pd.read_csv("C:/Users/Aditya Ganesh/Desktop/IST 707 - Data Analytics/Week 3/HW1/App_arm/employee_attrition.csv")
 data = impute_missing_and_clean(emp_atr)
 data = clean_data(data)
 newD = pd.get_dummies(data)
