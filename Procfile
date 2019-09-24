@@ -1,1 +1,1 @@
-web: gunicorn app:server --log-file=-
+gunicorn app:app.server -b localhost:8000
