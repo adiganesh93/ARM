@@ -106,7 +106,13 @@ newD = pd.get_dummies(data)
 
 
 # rendering as graph
-app = dash.Dash()
+from flask import Flask
+import os
+
+server = Flask(__name__)
+server.secret_key = os.environ.get('secret_key', 'secret')
+app = dash.Dash(name = __name__, server = server)
+#app = dash.Dash()
 my_css = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 app = dash.Dash(__name__, external_stylesheets=my_css)
 server = app.server
