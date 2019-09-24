@@ -1,1 +1,1 @@
-gunicorn app:app.server -b localhost:8000
+gunicorn app:app.server -b localhost:8050
