@@ -18,4 +18,4 @@ https://stark-headland-03168.herokuapp.com/
  
  – Presented the most interesting and signiﬁcant rules which could predict “Attrition”.
  
- – Provided interpretations of the above chosen association rules and also discuseds why I considered them interesting and signiﬁcant.
+ – Provided interpretations of the above chosen association rules and also discussed why I considered them interesting and signiﬁcant.
